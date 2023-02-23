@@ -1,0 +1,183 @@
+C-x C-f  read file
+C-x C-s save file
+C-x i insert contents into current buffer
+C-x C-c exit emacs
+
+Launch POP SHOP from Terminal
+
+io.elementary.appcenter
+
+Text Editing
+C-k erases to endo of line. If line is blank, the line itself is erased.
+C-g aborts a partially typed command
+C-x u undo last change to buffer
+C-w cut marked region
+M-w copy marked region
+C-y paste region
+C-x u or C-x-C undo change
+C-g redo, C-g again reverse the direction
+C-x h C-w clear the content on page (file)
+M-x indent-region indents selected region
+M-| wc -w word count region
+
+C-x C-+ Increase fornt size in buffer
+C-x C- - Decrease font size
+
+M-x set-variable RET c-basic-offeset RET x RET  adjust tab width to x (c-basic-offset fro c mode)
+
+M-u uppercase word from cursor
+M-l lowercase
+M-c capitalize word
+C-x C-u uppercase region
+C-x C-l lowercase region
+
+Marking
+C-@ or C-SPACE set mark
+M-@ set mark ARG words away
+M-h mark paragraph
+C-x C-p mark page
+C-M-h mark function
+C-x h mark buffer
+
+Spelling
+M-$ check spelling of word, offer suggestions
+M-x flyspell-mode enable/disable mode (hightlight misspelled wrods)
+M-x flyspell-prog-mode enable/disable flyspellmode for comments and strings
+M-/ completes partial word from cursor position
+M- corrects misspelled word under cursor (in flyspell mode)
+M-x ispell spellcheck the active region or the current buffer
+M-x ispell-buffer
+M-x ispell-region
+M-x ispell-string
+M-x ispell-word starts ispell for the specified region check and correct spelling of each word in the region
+M-x ispell-kill-ispell kill aspell or ispell
+M-x spell-buffer
+M-x spell region
+M-x spell-string
+M-x spell-word Simplified spellchecks, no suggestions, corrections by hand only
+
+x quit spellchecking in ispell, moves cursor back to starting position, skips current word while spellchecking work
+r replaces current word while spellchecking
+? display other options
+a accept spelling for all buffers for this session
+i accept spelling for and add to dictionary
+q quit
+x halt at current location (will restart from there later)
+
+Searching and replacing
+C-s search forward
+C-r search backward
+M-x count-matches Prints the number of occurrences of a regular expression
+M-x replace-string will prompt for string to search and replace, unconditionally replaces all occurances
+
+Deleting
+C-d delete the character at the point
+<DEL> delete the character before the point (i.e., backspace)
+M-x kill-sentence kills the sentence from the point of the cursor
+M-d Delete word from cursor
+C-k Deletes previous sentence
+
+Navigation
+C-a move to beginning of line
+C-e move to end of line
+M-a backward a sentence
+M-e forward a sentence
+M-} forward a paragraph
+M-{ backward a paragraph
+C-v move down a screen
+M-v move up a screen
+M-< move to beginning of the buffer
+M-> move to end of buffer
+C-p move up one line
+C-n move down one line
+C-f move right one character
+C-b  move back one characters
+M-b left one word
+M-F right one word
+C-l cursor in the middle of the screen
+C-U x C-N advance x line
+C-x w display the lien number wher the cursor is located
+M-d got-line x goto line number x
+
+Programming
+make -k compile using makefile
+M-x comment-region comments region of code
+M-; comment current ling
+
+Org-Roam
+C-c n l org-roam-buffer toggle
+C-c n f org-roam-node-find
+C-c n i org-roam-node-insert
+
+C-M-i completion at point
+"Y" org-roam-dailies-capture-yesterday
+"T" org-roam-dailies-capture-tomorrow
+
+C-c n d org roam dailies-map
+
+C-c n d n org-roam dailies capture today
+C-c C-c save the entry
+C-c C-k to cancel capture
+
+C-c n d d org-roam-dailies-goto today
+C-c n d y org-capture yesterday
+C-c n d T capture tomorrow
+C-c n d y go to the file for yesterday
+C-c n d to go to the file for tomorrow
+
+C-c n d v org-roam-dailies capture for a specific date
+C-c n d c go to the file for a specific date
+
+C-c n d b go back one existing date file with next note
+C-c n d f go forward one existing date file with previous note
+
+Dired
+C-x d open dired
+
+HTML-MODe
+C-c C-c # ID anchor
+C-c C-c n name anchor
+C-c C-c h href anchor
+C-c C-c i image
+C-c Ret paragraph
+C-c C-j line break
+C-c C-c - horizonatal break
+C-c C-c o ordered list
+C-c C-c u unordered list
+C-c C-c i list item
+C-c C-c c checkbox
+C-c 1 heading 1
+C-c 2 heading 2
+C-c 3 heading 3
+C-c 4 heading 4
+C-c 5 heading 5
+C-c 6 heading 6
+C-c C-o insert tag
+C-c C-a insert attributes
+C-c C-b backward tag
+C-c C-f forward tag
+C-c backspace delete tag
+C-c ? describe tag
+C-c Tab toggle tag visibility
+M-o i old school italic tag
+M-o b old school bold tag
+M-o u underline
+C-c C-d sgml delete tag
+C-c C-e 2 sgml close tag
+C-c / sgml close tag
+C-c ] sgml close tag
+C-c <right> sgml skip tag forward
+C-c C-c r radio button
+C-x C-; comment
+
+Open python shell
+C-c C-z
+Run the content
+C-c C-c
+Run the selected region in the python
+C-c C-r
+
+Clean python shell
+C-c M-o
+or
+M-x-comint-clear-buffer

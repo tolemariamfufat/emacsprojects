@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2f962f73-3a91-459e-950a-cbf7b16d8e51
+:END:
+#+title: Phonology
+Phonology is typically defined as “the study of speech sounds of a language or languages, and the laws governing them,”1 particularly the laws governing the composition and combination of speech sounds in language.
+
+* Resources
+:PROPERTIES:
+:ID:       bb6bc4ed-fdee-4fc6-b814-6cf1008140b5
+:END:
+
+
+

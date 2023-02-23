@@ -1,0 +1,3 @@
+* Family
+** DONE Ethiopian x-mass holiday
+SCHEDULED: <2023-01-07 Sat>

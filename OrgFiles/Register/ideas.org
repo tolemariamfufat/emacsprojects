@@ -1,0 +1,27 @@
+* Register
+* Register config
+(set-register ?e '(file . "~/.emacs"))
+(set-register ?i '(file . "~/org/ideas.org"))
+* Dashboard config
+(use-package dashboard
+  :ensure t
+  :init
+  (progn
+    (setq dashboard-items '((recents . 1)
+			    (projects . 1)
+			    (bookmarks . 1)
+			    (agenda . 1)
+			    (registers . 1)))
+    (setq dashboard-show-shortcuts t)
+    (setq dashboard-center-content nil)
+    (setq dashboard-banner-logo-title "Welcome!")
+    (setq dashboard-set-file-icons t)
+    (setq dashboard-set-heading-icons t)
+    (setq dashboard-set-navigator t)
+    ;;(setq dashboard-startup-banner "path")
+    )
+  :config
+  (dashboard-setup-startup-hook))
+;;
+(setq initial-buffer-choice (lambda () (get-buffer-create "*dashboard*")))
+

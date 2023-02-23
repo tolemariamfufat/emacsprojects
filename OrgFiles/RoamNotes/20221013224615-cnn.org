@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       85a52e3a-97eb-4d7f-84b9-06ca0a54a9f7
+:END:
+#+title: CNN
+What is CNN for?
