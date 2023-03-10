@@ -1,3 +1,5 @@
+C-x-C-j = jump to dired directory
+
 C-x C-f  read file
 C-x C-s save file
 C-x i insert contents into current buffer
